@@ -39,4 +39,9 @@ public class PlayerController : MonoBehaviour
         vel.x = (moving) ? moveSpeed : 0;
         rb2d.velocity = vel;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Moving = false;
+    }
 }
