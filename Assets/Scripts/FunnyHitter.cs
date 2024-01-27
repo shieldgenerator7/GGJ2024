@@ -19,7 +19,7 @@ public class FunnyHitter : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             thePlayer = collision.gameObject;
-            Debug.Log("HITsss");
+            Debug.Log("HIT "+ messName);
             //call player object to stop moving
 
             Destroy(this.gameObject);

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7748355522907392888}
   - component: {fileID: 1316272667331781848}
   - component: {fileID: 976720368268937154}
+  - component: {fileID: 7919253120156310277}
   - component: {fileID: 3729979672781145412}
   m_Layer: 0
   m_Name: Square
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 1}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 702205123092368933}
@@ -77,9 +78,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -5306145881288120034, guid: af8c6cf6281c570488c8512cbbedce69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -101,6 +102,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyFunny: {fileID: 8822509575071952943}
+  postClick: {fileID: 9127598973776806159, guid: d8780e40d72f60b48b3a635338c674f3, type: 3}
+--- !u!114 &7919253120156310277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906161552136591717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6a2bdab29e3424b9804ca77a6a3a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!61 &3729979672781145412
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -139,13 +153,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 23.150768, y: 17.86}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 22.85, y: 20.41}
   m_EdgeRadius: 0
 --- !u!1 &5913273341958441821
 GameObject:
@@ -172,7 +186,7 @@ Transform:
   m_GameObject: {fileID: 5913273341958441821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.64, y: 3.7, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -209,8 +223,8 @@ Transform:
   m_GameObject: {fileID: 8822509575071952943}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5799999, y: -0.20799994, z: 0}
-  m_LocalScale: {x: 0.5045912, y: 0.5, z: 1}
+  m_LocalPosition: {x: -0.26, y: -0.20799994, z: 0}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 702205123092368933}
@@ -258,7 +272,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -7720309492984053391, guid: d824d72cf3a4ca24591d46a5a84be6b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -308,8 +322,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb842b5b5f6a6534f94892dae37bbc01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messName: 
+  messName: Poop
   thePlayer: {fileID: 0}
+  consumed: 1
+  flingMe: 1
+  flingForce: 100
+  flingUp: 0
+  rotateMe: 1
+  myself: {fileID: 0}
 --- !u!58 &6565436407472845817
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -345,4 +365,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 7.98
