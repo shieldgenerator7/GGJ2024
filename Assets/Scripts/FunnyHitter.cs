@@ -6,9 +6,10 @@ public class FunnyHitter : MonoBehaviour
 {
     public string messName;
     public GameObject thePlayer;
-    public bool consumed;
-    public bool flingMe;
+    public bool consumed; //hits ground and goes away = true ; stays to trip = false
+    public bool flingMe;  // drops = false, moves towards player = true
     public float flingForce;
+    public float flingUp;
     public Rigidbody2D myself;
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -38,7 +39,7 @@ public class FunnyHitter : MonoBehaviour
         if(flingMe == true)
         {
             Debug.Log("yeet");
-            myself.AddForce(new Vector2(-flingForce, flingForce));
+            myself.AddForce(new Vector2(-flingForce, flingUp));
         }
     }
 }
