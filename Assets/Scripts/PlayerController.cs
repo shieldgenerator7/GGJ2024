@@ -4,13 +4,24 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 1;
+    [SerializeField]
+    private float moveSpeed = 1;
+
+    private bool moving = true;
+    public bool Moving
+    {
+        get => moving;
+        set => moving = value;
+    }
 
     private Rigidbody2D rb2d;
+
+    public static PlayerController instance;
 
     // Start is called before the first frame update
     void Start()
     {
+        instance = this;
         rb2d = GetComponent<Rigidbody2D>();
     }
 
@@ -18,7 +29,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Vector2 vel = rb2d.velocity;
-        vel.x = moveSpeed;
+        vel.x = (moving) ? moveSpeed : 0;
         rb2d.velocity = vel;
     }
 }
