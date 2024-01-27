@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,8 +12,14 @@ public class PlayerController : MonoBehaviour
     public bool Moving
     {
         get => moving;
-        set => moving = value;
+        set
+        {
+            moving = value;
+            OnMovingChanged?.Invoke(moving);
+        }
     }
+    public Action<bool> OnMovingChanged;
+
 
     private Rigidbody2D rb2d;
 
