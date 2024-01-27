@@ -2487,24 +2487,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3034417742988615075, guid: 0e63e0ba9a6db0a49901838c49135b9a, type: 3}
+      propertyPath: flingUp
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034417742988615075, guid: 0e63e0ba9a6db0a49901838c49135b9a, type: 3}
       propertyPath: consumed
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3034417742988615075, guid: 0e63e0ba9a6db0a49901838c49135b9a, type: 3}
       propertyPath: flingForce
-      value: 300
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 4179924120014241876, guid: 0e63e0ba9a6db0a49901838c49135b9a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4179924120014241876, guid: 0e63e0ba9a6db0a49901838c49135b9a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4179924120014241876, guid: 0e63e0ba9a6db0a49901838c49135b9a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.84
       objectReference: {fileID: 0}
     - target: {fileID: 4179924120014241876, guid: 0e63e0ba9a6db0a49901838c49135b9a, type: 3}
       propertyPath: m_LocalPosition.y
