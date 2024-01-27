@@ -4,26 +4,41 @@ using UnityEngine;
 
 public class FunnyHitter : MonoBehaviour
 {
-    
-
+    public string messName;
+    public GameObject thePlayer;
+    public bool consumed;
+    public bool flingMe;
+    public float flingForce;
+    public Rigidbody2D myself;
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        
+
         if (collision.gameObject.tag == "Player")
         {
+            thePlayer = collision.gameObject;
             Debug.Log("HITsss");
-            //call player object to stop moving 
-            Destroy(this.gameObject);
-        }else if (collision.gameObject.tag == "Ground")
-        {
-            Debug.Log("Grounded");
+            //call player object to stop moving
+
             Destroy(this.gameObject);
         }
-        
+        else if (collision.gameObject.tag == "Ground")
+        {
+            Debug.Log("Grounded");
+            if (consumed) { 
+            Destroy(this.gameObject);
+        }
+        }
+
     }
     private void Start()
     {
+        myself = this.GetComponent<Rigidbody2D>();
         transform.rotation = Quaternion.Euler(0.0f, 0.0f, Random.Range(0.0f, 360.0f));
+        if(flingMe == true)
+        {
+            Debug.Log("yeet");
+            myself.AddForce(new Vector2(-flingForce, flingForce));
+        }
     }
 }
