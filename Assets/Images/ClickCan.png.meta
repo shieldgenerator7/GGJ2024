@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b33a17409fc401448a130c1f6f67bdac
+guid: 64749f3e97535294eaf31f042b282480
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2863742802456563493
-    second: building_electronics_0
+      213: -475893386114375114
+    second: ClickCan_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: building_electronics_0
+      name: ClickCan_0
       rect:
         serializedVersion: 2
-        x: 292
-        y: 593
-        width: 5581
-        height: 4307
+        x: 18
+        y: 39
+        width: 764
+        height: 970
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd0be7b0811f148d0800000000000000
-      internalID: -2863742802456563493
+      spriteID: 632e1b99c794569f0800000000000000
+      internalID: -475893386114375114
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      building_electronics_0: -2863742802456563493
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

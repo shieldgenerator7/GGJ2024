@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 7096ba673c625934785416cae4a8741b
+guid: 84d4b2f3822984749aed1d178e23d0a8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6186775346929679735
-    second: TreeSheet_0
-  - first:
-      213: -2548247952273501294
-    second: TreeSheet_1
-  - first:
-      213: -448569402321790231
-    second: TreeSheet_2
-  - first:
-      213: -7571291637044328373
-    second: TreeSheet_3
+      213: -2893099047981857842
+    second: TripUFO_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TreeSheet_0
+      name: TripUFO_0
       rect:
         serializedVersion: 2
-        x: 774
-        y: 4815
-        width: 919
-        height: 649
+        x: 109
+        y: 54
+        width: 5825
+        height: 3020
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,71 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 982cc15d998242aa0800000000000000
-      internalID: -6186775346929679735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeSheet_1
-      rect:
-        serializedVersion: 2
-        x: 4014
-        y: 4108
-        width: 1510
-        height: 1486
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2931f151dfdc2acd0800000000000000
-      internalID: -2548247952273501294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeSheet_2
-      rect:
-        serializedVersion: 2
-        x: 725
-        y: 1727
-        width: 711
-        height: 997
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ea1085518c56c9f0800000000000000
-      internalID: -448569402321790231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TreeSheet_3
-      rect:
-        serializedVersion: 2
-        x: 2527
-        y: 357
-        width: 2606
-        height: 3442
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b48461bde5e5de690800000000000000
-      internalID: -7571291637044328373
+      spriteID: ec345018eb5a9d7d0800000000000000
+      internalID: -2893099047981857842
       vertices: []
       indices: 
       edges: []

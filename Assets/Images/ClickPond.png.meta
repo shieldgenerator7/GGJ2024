@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b33a17409fc401448a130c1f6f67bdac
+guid: f4a5e6e1495740146b08dc0ade9f77a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2863742802456563493
-    second: building_electronics_0
+      213: 7543815820139875866
+    second: ClickPond_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: building_electronics_0
+      name: ClickPond_0
       rect:
         serializedVersion: 2
-        x: 292
-        y: 593
-        width: 5581
-        height: 4307
+        x: 128
+        y: 22
+        width: 4666
+        height: 2326
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd0be7b0811f148d0800000000000000
-      internalID: -2863742802456563493
+      spriteID: a1ec862058401b860800000000000000
+      internalID: 7543815820139875866
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      building_electronics_0: -2863742802456563493
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

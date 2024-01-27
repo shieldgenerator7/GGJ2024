@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: e480c7d626c8e5f46920b9a4670fbb42
+guid: e9aebe4d13921c048a44be504bab77c6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6570592098708476682
-    second: TrashSheet_0
-  - first:
-      213: -915376639789153546
-    second: TrashSheet_1
-  - first:
-      213: 4110203075714814275
-    second: TrashSheet_2
+      213: 7454634749090392067
+    second: TripFish_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TrashSheet_0
+      name: TripFish_0
       rect:
         serializedVersion: 2
-        x: 245
-        y: 4849
-        width: 764
-        height: 970
+        x: 141
+        y: 73
+        width: 2108
+        height: 1438
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,50 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a03d18783be6f2b50800000000000000
-      internalID: 6570592098708476682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TrashSheet_1
-      rect:
-        serializedVersion: 2
-        x: 2388
-        y: 3725
-        width: 1615
-        height: 2123
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f24da5cbcdeb43f0800000000000000
-      internalID: -915376639789153546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TrashSheet_2
-      rect:
-        serializedVersion: 2
-        x: 5719
-        y: 5500
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34113baabef5a0930800000000000000
-      internalID: 4110203075714814275
+      spriteID: 308e0d5dece247760800000000000000
+      internalID: 7454634749090392067
       vertices: []
       indices: 
       edges: []
