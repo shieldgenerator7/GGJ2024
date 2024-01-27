@@ -6,6 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9668c957bd47b0e4c9d4cc57e47798c2
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ShoppingStore.unity
+    guid: dec27ec19fa960142af44c4a8ee570df
+  - enabled: 1
+    path: Assets/Scenes/Circus.unity
+    guid: ec33aa601ee4d6744bb01c6144afcfca
+  - enabled: 1
+    path: Assets/Scenes/Park.unity
+    guid: 05a5b69c2cbc0eb48872ec28d129aaaa
+  - enabled: 1
+    path: Assets/Scenes/CornField.unity
+    guid: 7f6f18f183d107c4f9263a0504c7423b
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
