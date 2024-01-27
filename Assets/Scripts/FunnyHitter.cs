@@ -10,6 +10,7 @@ public class FunnyHitter : MonoBehaviour
     public bool flingMe;  // drops = false, moves towards player = true
     public float flingForce;
     public float flingUp;
+    public bool rotateMe;
     public Rigidbody2D myself;
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -35,10 +36,11 @@ public class FunnyHitter : MonoBehaviour
     private void Start()
     {
         myself = this.GetComponent<Rigidbody2D>();
-        transform.rotation = Quaternion.Euler(0.0f, 0.0f, Random.Range(0.0f, 360.0f));
+        if (rotateMe) { 
+            transform.rotation = Quaternion.Euler(0.0f, 0.0f, Random.Range(0.0f, 360.0f)); 
+        }
         if(flingMe == true)
         {
-            Debug.Log("yeet");
             myself.AddForce(new Vector2(-flingForce, flingUp));
         }
     }
