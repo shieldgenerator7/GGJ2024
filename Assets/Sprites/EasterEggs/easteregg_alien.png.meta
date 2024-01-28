@@ -1,0 +1,464 @@
+fileFormatVersion: 2
+guid: 598f620f8c52b0346b71dd93682f0aa0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7198344667380401527
+    second: easteregg_alien_0
+  - first:
+      213: 8404939323314794521
+    second: easteregg_alien_1
+  - first:
+      213: -659929993742686246
+    second: easteregg_alien_2
+  - first:
+      213: 4412044688775711779
+    second: easteregg_alien_3
+  - first:
+      213: -2764658155268665940
+    second: easteregg_alien_4
+  - first:
+      213: 8789288157563057816
+    second: easteregg_alien_5
+  - first:
+      213: -3527964722489476590
+    second: easteregg_alien_6
+  - first:
+      213: 2882609100733544328
+    second: easteregg_alien_7
+  - first:
+      213: 8134435819512128175
+    second: easteregg_alien_8
+  - first:
+      213: -8893921334152935365
+    second: easteregg_alien_9
+  - first:
+      213: 7681273716783408287
+    second: easteregg_alien_10
+  - first:
+      213: 6331542544255058760
+    second: easteregg_alien_11
+  - first:
+      213: -496526908257138595
+    second: easteregg_alien_12
+  - first:
+      213: 90787098774141915
+    second: easteregg_alien_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: easteregg_alien_0
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 4446
+        width: 541
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77549062658a5e360800000000000000
+      internalID: 7198344667380401527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_1
+      rect:
+        serializedVersion: 2
+        x: 3782
+        y: 4453
+        width: 541
+        height: 542
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910f3e488c754a470800000000000000
+      internalID: 8404939323314794521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_2
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 4255
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7675aca2577d6f0800000000000000
+      internalID: -659929993742686246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_3
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 4248
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c00a7b44bba3d30800000000000000
+      internalID: 4412044688775711779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_4
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 4070
+        width: 165
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad03d93e06f1a9d0800000000000000
+      internalID: -2764658155268665940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_5
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 4063
+        width: 165
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896f71cf203d9f970800000000000000
+      internalID: 8789288157563057816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_6
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 3878
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ab7efd6c62a0fc0800000000000000
+      internalID: -3527964722489476590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_7
+      rect:
+        serializedVersion: 2
+        x: 3837
+        y: 3871
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887f78354b5110820800000000000000
+      internalID: 2882609100733544328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_8
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 2518
+        width: 1192
+        height: 1193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2eb3e974253e070800000000000000
+      internalID: 8134435819512128175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_9
+      rect:
+        serializedVersion: 2
+        x: 3309
+        y: 3693
+        width: 165
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38cb892ba1729480800000000000000
+      internalID: -8893921334152935365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_10
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 3686
+        width: 165
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f946b6f8fbd599a60800000000000000
+      internalID: 7681273716783408287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_11
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 1460
+        width: 1119
+        height: 1060
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8438896e5682ed750800000000000000
+      internalID: 6331542544255058760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_12
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 1030
+        width: 322
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5809eb586bfb19f0800000000000000
+      internalID: -496526908257138595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: easteregg_alien_13
+      rect:
+        serializedVersion: 2
+        x: 3798
+        y: 1062
+        width: 322
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbfe94a26a824100800000000000000
+      internalID: 90787098774141915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      easteregg_alien_0: 7198344667380401527
+      easteregg_alien_1: 8404939323314794521
+      easteregg_alien_10: 7681273716783408287
+      easteregg_alien_11: 6331542544255058760
+      easteregg_alien_12: -496526908257138595
+      easteregg_alien_13: 90787098774141915
+      easteregg_alien_2: -659929993742686246
+      easteregg_alien_3: 4412044688775711779
+      easteregg_alien_4: -2764658155268665940
+      easteregg_alien_5: 8789288157563057816
+      easteregg_alien_6: -3527964722489476590
+      easteregg_alien_7: 2882609100733544328
+      easteregg_alien_8: 8134435819512128175
+      easteregg_alien_9: -8893921334152935365
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
