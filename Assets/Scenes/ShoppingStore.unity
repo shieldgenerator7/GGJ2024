@@ -269,6 +269,14 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4687757609951773329, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 03fcb77a0557afd4c982bc9a3b2ea124, type: 3}
+    - target: {fileID: 4687757609951773329, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 03fcb77a0557afd4c982bc9a3b2ea124, type: 3}
     - target: {fileID: 7490922357937460267, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -280,7 +288,7 @@ PrefabInstance:
     - target: {fileID: 8732602071016580928, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
       propertyPath: foundSound
       value: 
-      objectReference: {fileID: 8300000, guid: c76e87160ab79aa418b4d66028a7d592, type: 3}
+      objectReference: {fileID: 8300000, guid: 03fcb77a0557afd4c982bc9a3b2ea124, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4750,6 +4758,14 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.pivot.y
       value: 0.36807883
       objectReference: {fileID: 0}
+    - target: {fileID: 4687757609951773329, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: fb16799736ea5a440b0975d37a25918c, type: 3}
+    - target: {fileID: 4687757609951773329, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fb16799736ea5a440b0975d37a25918c, type: 3}
     - target: {fileID: 7490922357937460267, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4761,7 +4777,7 @@ PrefabInstance:
     - target: {fileID: 8732602071016580928, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
       propertyPath: foundSound
       value: 
-      objectReference: {fileID: 8300000, guid: cad2673a5de7be24fae6b48f1e3a3f2b, type: 3}
+      objectReference: {fileID: 8300000, guid: fb16799736ea5a440b0975d37a25918c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
