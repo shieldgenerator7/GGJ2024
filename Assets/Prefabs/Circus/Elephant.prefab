@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 5628858866458752912}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5799999, y: -0.20799994, z: 0}
-  m_LocalScale: {x: 0.5045912, y: 0.5, z: 1}
+  m_LocalPosition: {x: -0.69, y: 0.02, z: 0}
+  m_LocalScale: {x: 0.03, y: 0.03, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7857344469066984248}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -4926182980782277910, guid: 5c89a2f99c9ee1d49ae71c14afe8301c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,7 +104,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -128,8 +128,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb842b5b5f6a6534f94892dae37bbc01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messName: 
+  messName: Pie
   thePlayer: {fileID: 0}
+  consumed: 1
+  flingMe: 1
+  flingForce: 300
+  flingUp: 50
+  rotateMe: 0
+  myself: {fileID: 0}
 --- !u!58 &3826398673056232378
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -165,7 +171,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 8.75
 --- !u!1 &5758910587980310379
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,8 +200,8 @@ Transform:
   m_GameObject: {fileID: 5758910587980310379}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7857344469066984248}
@@ -243,7 +249,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 7937273438268089576, guid: 977bcc8d68b19fe4e8b1fb423ef524b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -267,6 +273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyFunny: {fileID: 5628858866458752912}
+  postClick: {fileID: -5381729511066427757, guid: 5e720abc847bdd34483cb7562b7f8d29, type: 3}
 --- !u!61 &1403355477826065360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -305,13 +312,13 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 33.000004, y: 31.130003}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 33.26, y: 32.5}
   m_EdgeRadius: 0
 --- !u!1 &6917920395751879688
 GameObject:
@@ -338,7 +345,7 @@ Transform:
   m_GameObject: {fileID: 6917920395751879688}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.64, y: 3.7, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

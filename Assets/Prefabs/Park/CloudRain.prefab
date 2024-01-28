@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb842b5b5f6a6534f94892dae37bbc01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messName: 
+  messName: Splash
   thePlayer: {fileID: 0}
   consumed: 1
   flingMe: 0
@@ -280,7 +280,7 @@ Transform:
   m_GameObject: {fileID: 9155139190230326889}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
