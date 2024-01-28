@@ -171,6 +171,7 @@ MonoBehaviour:
   rotateMe: 1
   destroyOnContact: 1
   myself: {fileID: 0}
+  headShoot: 1
   myClip: {fileID: 8300000, guid: 8134f0f7e185ae145b188c7983731d9e, type: 3}
 --- !u!58 &290532750137672505
 CircleCollider2D:

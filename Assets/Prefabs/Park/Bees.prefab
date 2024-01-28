@@ -138,6 +138,7 @@ MonoBehaviour:
   rotateMe: 0
   destroyOnContact: 1
   myself: {fileID: 0}
+  headShoot: 0
   myClip: {fileID: 0}
 --- !u!58 &3442917807093654457
 CircleCollider2D:
@@ -443,6 +444,7 @@ MonoBehaviour:
   rotateMe: 0
   destroyOnContact: 1
   myself: {fileID: 0}
+  headShoot: 0
   myClip: {fileID: 0}
 --- !u!58 &4126273290852458590
 CircleCollider2D:
@@ -866,6 +868,7 @@ MonoBehaviour:
   rotateMe: 0
   destroyOnContact: 1
   myself: {fileID: 0}
+  headShoot: 1
   myClip: {fileID: 0}
 --- !u!58 &4990424396679887309
 CircleCollider2D:

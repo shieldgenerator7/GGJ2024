@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shield_selfie_extracted_0: -4924953502455821972
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

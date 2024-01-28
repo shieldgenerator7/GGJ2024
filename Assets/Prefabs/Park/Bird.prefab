@@ -333,6 +333,7 @@ MonoBehaviour:
   rotateMe: 1
   destroyOnContact: 1
   myself: {fileID: 0}
+  headShoot: 1
   myClip: {fileID: 0}
 --- !u!58 &6565436407472845817
 CircleCollider2D:
