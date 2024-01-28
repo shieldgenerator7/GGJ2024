@@ -12,17 +12,22 @@ public class LevelTrigger : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
-            pc.Moving = false;
-            pc.GetComponent<AutoResumer>().waitDuration = waitTime;
-            pc.OnMovingChanged += (moving) =>
-            {
-                if (moving)
-                {
-
-                    SceneManager.LoadScene(sceneName);
-                }
-            };
+            startCOuntdown();
         }
+    }
+
+    public void startCOuntdown()
+    {
+        PlayerController pc = FindAnyObjectByType<PlayerController>();
+        pc.Moving = false;
+        pc.GetComponent<AutoResumer>().waitDuration = waitTime;
+        pc.OnMovingChanged += (moving) =>
+        {
+            if (moving)
+            {
+
+                SceneManager.LoadScene(sceneName);
+            }
+        };
     }
 }
