@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      juliacrow_0: -6021482229987712055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
