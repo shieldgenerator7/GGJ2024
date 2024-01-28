@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 502cb71604e522c43bea78a34aa6e4ed
+guid: 8514d1a7a929d5a4f8c3c542ddfe5049
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6647857717912991381
-    second: TelephonePole_0
+      213: -6156000629703387431
+    second: easteregg_head_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 2000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TelephonePole_0
+      name: easteregg_head_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 82
-        width: 2306
-        height: 5546
+        x: 2484
+        y: 1308
+        width: 2978
+        height: 3942
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b69057e90a01eb3a0800000000000000
-      internalID: -6647857717912991381
+      spriteID: 9d6d27d0b0e719aa0800000000000000
+      internalID: -6156000629703387431
       vertices: []
       indices: 
       edges: []
@@ -123,7 +123,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TelephonePole_0: -6647857717912991381
+      easteregg_head_0: -6156000629703387431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

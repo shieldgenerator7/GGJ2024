@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 502cb71604e522c43bea78a34aa6e4ed
+guid: 633c7cbc5ba4cba4e80203337a90ebfd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6647857717912991381
-    second: TelephonePole_0
+      213: 7190761860815708782
+    second: saylor2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TelephonePole_0
+      name: saylor2_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 82
-        width: 2306
-        height: 5546
+        x: 0
+        y: 0
+        width: 969
+        height: 969
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b69057e90a01eb3a0800000000000000
-      internalID: -6647857717912991381
+      spriteID: e62e85a60d7bac360800000000000000
+      internalID: 7190761860815708782
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      TelephonePole_0: -6647857717912991381
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
