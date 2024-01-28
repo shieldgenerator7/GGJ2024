@@ -26,5 +26,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: 7c744af1f667c384d97c3d8f4a9cfa74
+  - enabled: 1
+    path: Assets/Scenes/CornField2.unity
+    guid: 7d95e4c506195624da377f1273a854fa
+  - enabled: 1
+    path: Assets/Scenes/Park2.unity
+    guid: 17f49b4db4ec3eb4eba03e79e1c66d0a
+  - enabled: 1
+    path: Assets/Scenes/Circus2.unity
+    guid: a418de52efdea1b478a9ec9857a91ecb
+  - enabled: 1
+    path: Assets/Scenes/ShoppingStore2.unity
+    guid: a870cc68a30ec294386ab1885b6dfd1c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
