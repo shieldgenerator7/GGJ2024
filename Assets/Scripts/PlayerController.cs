@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField]
     private float moveSpeed = 1;
+    private float bonusmovespeed = 0;
 
     private bool moving = true;
     public bool Moving
@@ -33,14 +34,19 @@ public class PlayerController : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         OnMovingChanged += (move) => animator.SetBool("moving", move);
+        OnMovingChanged += (move) => bonusmovespeed = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         Vector2 vel = rb2d.velocity;
-        vel.x = (moving) ? moveSpeed : 0;
+        vel.x = (moving) ? moveSpeed + bonusmovespeed : 0;
         rb2d.velocity = vel;
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            bonusmovespeed++;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
