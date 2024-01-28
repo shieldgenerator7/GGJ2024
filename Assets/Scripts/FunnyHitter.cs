@@ -11,13 +11,14 @@ public class FunnyHitter : MonoBehaviour
     public float flingForce;
     public float flingUp;
     public bool rotateMe;
+    public bool destroyOnContact = true;
     public Rigidbody2D myself;
     public AudioSource sendSound = new AudioSource();
     public AudioClip soundSelection;
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-
+        if (destroyOnContact) { 
         if (collision.gameObject.tag == "Player")
         {
             thePlayer = collision.gameObject;
@@ -56,7 +57,7 @@ public class FunnyHitter : MonoBehaviour
            // Destroy(this.gameObject);
         }
         }
-
+        }
     }
     private void Start()
     {

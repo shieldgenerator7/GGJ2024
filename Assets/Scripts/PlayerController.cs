@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
 
 
     private Rigidbody2D rb2d;
+    private Animator animator;
 
     public static PlayerController instance;
 
@@ -30,6 +31,8 @@ public class PlayerController : MonoBehaviour
     {
         instance = this;
         rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        OnMovingChanged += (move) => animator.SetBool("moving", move);
     }
 
     // Update is called once per frame

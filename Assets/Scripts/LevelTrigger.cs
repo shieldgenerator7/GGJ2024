@@ -5,10 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class LevelTrigger : MonoBehaviour
 {
+    public float waitTime = 1;
     public string sceneName;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(sceneName);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
+            pc.Moving = false;
+            pc.GetComponent<AutoResumer>().waitDuration = waitTime;
+            pc.OnMovingChanged += (moving) =>
+            {
+                if (moving)
+                {
+
+                    SceneManager.LoadScene(sceneName);
+                }
+            };
+        }
     }
 }

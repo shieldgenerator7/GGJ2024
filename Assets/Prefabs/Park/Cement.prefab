@@ -135,6 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyFunny: {fileID: 4358508556824233428}
   postClick: {fileID: 0}
+  hideOnClick: 0
 --- !u!61 &8993145588303871443
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -169,7 +170,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.8617821, y: -0.11241722}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -179,7 +180,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 18.18, y: 45.3}
+  m_Size: {x: 37.404358, y: 66.2104}
   m_EdgeRadius: 0
 --- !u!1 &4358508556824233428
 GameObject:
@@ -259,9 +260,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -5383321798560072835, guid: c640e7d6cac142f4a8016756aea31e24, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
