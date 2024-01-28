@@ -574,15 +574,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3270668880468873881, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_Color.b
-      value: 0.16941082
+      value: 0.94117653
       objectReference: {fileID: 0}
     - target: {fileID: 3270668880468873881, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_Color.g
-      value: 0.36613262
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3270668880468873881, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_Color.r
-      value: 0.764151
+      value: 0.49411768
       objectReference: {fileID: 0}
     - target: {fileID: 6284126383666446976, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_Sprite
@@ -893,15 +893,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3270668880468873881, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_Color.b
-      value: 0.9411765
+      value: 0.16862746
       objectReference: {fileID: 0}
     - target: {fileID: 3270668880468873881, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.3647059
       objectReference: {fileID: 0}
     - target: {fileID: 3270668880468873881, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_Color.r
-      value: 0.49474245
+      value: 0.7647059
       objectReference: {fileID: 0}
     - target: {fileID: 6284126383666446976, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_Sprite
@@ -1028,7 +1028,9 @@ PrefabInstance:
       propertyPath: m_text
       value: 'sound effects
 
-        level design'
+        level design
+
+        voice acting'
       objectReference: {fileID: 0}
     - target: {fileID: 3270668880468873881, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_Color.b
@@ -1233,7 +1235,7 @@ Transform:
   m_GameObject: {fileID: 1261537997}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.66, y: 0, z: -10}
+  m_LocalPosition: {x: 2.74, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1555,6 +1557,14 @@ PrefabInstance:
     - target: {fileID: 1325996211602697993, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -24.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343463960489100631, guid: 6b062c18926da2d459690162c978cecd, type: 3}
+      propertyPath: m_text
+      value: 'programming
+
+        level design
+
+        admin'
       objectReference: {fileID: 0}
     - target: {fileID: 8656937207852475838, guid: 6b062c18926da2d459690162c978cecd, type: 3}
       propertyPath: m_Pivot.x
