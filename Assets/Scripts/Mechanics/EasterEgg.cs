@@ -8,10 +8,16 @@ public class EasterEgg : MonoBehaviour
     public float floatDuration = 3;
     private float foundStartTime = 0;
     private bool found = false;
+
+    public AudioClip foundSound;
+
     private SpriteRenderer sr;
+    private new AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
+        audio = GetComponent<AudioSource>();
+        audio.clip = foundSound;
         sr = GetComponent<SpriteRenderer>();
     }
 
@@ -21,6 +27,7 @@ public class EasterEgg : MonoBehaviour
         {
             found = true;
             foundStartTime = Time.time;
+            audio.Play();
         }
     }
 
@@ -34,6 +41,12 @@ public class EasterEgg : MonoBehaviour
             sr.color = c;
             //
             transform.position += Vector3.up * (floatSpeed * Time.deltaTime);
+            //
+            if (Time.time > foundStartTime + floatDuration && !audio.isPlaying)
+            {
+                Debug.Log("finished easter egg " + gameObject.name);
+                Destroy(gameObject);
+            }
         }
     }
 
