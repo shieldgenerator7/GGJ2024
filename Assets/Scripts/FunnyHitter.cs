@@ -13,8 +13,9 @@ public class FunnyHitter : MonoBehaviour
     public bool rotateMe;
     public bool destroyOnContact = true;
     public Rigidbody2D myself;
-    public AudioSource sendSound = new AudioSource();
-    public AudioClip soundSelection;
+
+    AudioSource audioData;
+    public AudioClip myClip;
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
@@ -23,15 +24,22 @@ public class FunnyHitter : MonoBehaviour
         {
             thePlayer = collision.gameObject;
             Debug.Log("HIT "+ messName);
-            //sendSound = thePlayer.GetComponent(AudioSource); 
-   
-            //call player object to stop moving
-            sendSound = thePlayer.GetComponent<AudioSource>();
-            {
+                //sendSound = thePlayer.GetComponent(AudioSource); 
 
-                //sendSound.PlayOneShot(soundSelection, 1.0f);
-            }
-               Destroy(this.gameObject);
+                //call player object to stop moving
+                //this.GetComponentInChildren<AudioSource>();
+
+                audioData = GetComponent<AudioSource>();
+                audioData.Play(0);
+                Debug.Log("started");
+
+
+                AudioSource clipPlayer = new AudioSource();
+                clipPlayer = GetComponent<AudioSource>();
+                BoxCollider2D boxedIn = GetComponent<BoxCollider2D>();
+                boxedIn.enabled = false;
+                // PlayMyTrack();
+                Destroy(this.gameObject,3);
         }
         else if (collision.gameObject.tag == "Ground")
         {

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1523773277290810861}
   - component: {fileID: 1288318328044738361}
   - component: {fileID: 3826398673056232378}
+  - component: {fileID: 1702893861869502177}
   m_Layer: 0
   m_Name: Dropper
   m_TagString: Untagged
@@ -135,7 +136,9 @@ MonoBehaviour:
   flingForce: 300
   flingUp: 50
   rotateMe: 0
+  destroyOnContact: 1
   myself: {fileID: 0}
+  myClip: {fileID: 0}
 --- !u!58 &3826398673056232378
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -172,6 +175,103 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 8.75
+--- !u!82 &1702893861869502177
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5628858866458752912}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8134f0f7e185ae145b188c7983731d9e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 8134f0f7e185ae145b188c7983731d9e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &5758910587980310379
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,6 +374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyFunny: {fileID: 5628858866458752912}
   postClick: {fileID: -5381729511066427757, guid: 5e720abc847bdd34483cb7562b7f8d29, type: 3}
+  hideOnClick: 0
 --- !u!61 &1403355477826065360
 BoxCollider2D:
   m_ObjectHideFlags: 0

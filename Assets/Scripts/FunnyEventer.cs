@@ -7,6 +7,8 @@ public class FunnyEventer : MonoBehaviour
     public GameObject MyFunny;
     public Sprite postClick;
     public bool hideOnClick = false;
+
+      
  
     void OnMouseDown()
     {
@@ -28,5 +30,6 @@ public class FunnyEventer : MonoBehaviour
         //change image to post clicked
         
     }
+
     // Start is called before the first frame update
 }
