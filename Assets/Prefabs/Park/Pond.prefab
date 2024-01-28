@@ -309,7 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb842b5b5f6a6534f94892dae37bbc01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  messName: Fish
+  messName: Splash
   thePlayer: {fileID: 0}
   consumed: 1
   flingMe: 1
