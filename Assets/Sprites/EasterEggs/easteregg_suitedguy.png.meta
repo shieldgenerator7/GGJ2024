@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6f6c3addd2fe4464d80c9216bffdd1d9
+guid: 1c7ccd41163c8374eb61cd495911e7a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5495099629885574289
-    second: easteregg_comedian_0
+      213: -8236480116714195837
+    second: easteregg_suitedguy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: easteregg_comedian_0
+      name: easteregg_suitedguy_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 483
-        height: 568
+        x: 2743
+        y: 685
+        width: 3182
+        height: 5087
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19cc5b4cff3824c40800000000000000
-      internalID: 5495099629885574289
+      spriteID: 384beabf8f422bd80800000000000000
+      internalID: -8236480116714195837
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      easteregg_comedian_0: 5495099629885574289
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

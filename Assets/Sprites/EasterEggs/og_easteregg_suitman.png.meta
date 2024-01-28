@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4608a207e823cc944bada52ad1b0d33a
+guid: 3496d95c3f66a9745a855f641dfbf939
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8373377499104204645
-    second: easteregg_suitman_0
+      213: 4693519771154316009
+    second: og_easteregg_suitman_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: easteregg_suitman_0
+      name: og_easteregg_suitman_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9825a35789cbcb80800000000000000
-      internalID: -8373377499104204645
+      spriteID: 9eafce15d5bb22140800000000000000
+      internalID: 4693519771154316009
       vertices: []
       indices: 
       edges: []
