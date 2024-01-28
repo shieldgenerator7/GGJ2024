@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ClickWindowFlower_0: -1854487869316890088
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

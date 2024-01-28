@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TripUFO_0: -2893099047981857842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
