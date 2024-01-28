@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 95999e9ef0c611249b906ae8f2c1d444
+guid: 71f526e6392f83e4182dcbb841454027
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6006320432790393706
-    second: ClickBush_0
+      213: -7701361047278242887
+    second: easteregg_swan_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ClickBush_0
+      name: easteregg_swan_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 42
-        width: 1986
-        height: 2432
+        x: 3354
+        y: 2672
+        width: 2428
+        height: 2011
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69cab54a36345aca0800000000000000
-      internalID: -6006320432790393706
+      spriteID: 9b333f95ee44f1590800000000000000
+      internalID: -7701361047278242887
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ClickBush_0: -6006320432790393706
+      easteregg_swan_0: -7701361047278242887
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

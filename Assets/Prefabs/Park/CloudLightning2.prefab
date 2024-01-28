@@ -229,7 +229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6049290791128343209}
   m_Layer: 0
-  m_Name: CloudLightning
+  m_Name: CloudLightning2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

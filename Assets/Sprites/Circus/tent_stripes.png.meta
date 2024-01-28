@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 95999e9ef0c611249b906ae8f2c1d444
+guid: aef5cc443c02e694eb443f944bd6604b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6006320432790393706
-    second: ClickBush_0
+      213: 8162917784299102573
+    second: tent_stripes_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ClickBush_0
+      name: tent_stripes_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 42
-        width: 1986
-        height: 2432
+        x: 383
+        y: 149
+        width: 5081
+        height: 5692
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69cab54a36345aca0800000000000000
-      internalID: -6006320432790393706
+      spriteID: d61eddfc972884170800000000000000
+      internalID: 8162917784299102573
       vertices: []
       indices: 
       edges: []
@@ -123,7 +123,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ClickBush_0: -6006320432790393706
+      tent_stripes_0: 8162917784299102573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

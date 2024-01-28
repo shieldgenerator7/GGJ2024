@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 95999e9ef0c611249b906ae8f2c1d444
+guid: 05493b925e4b3514b90e35270cdb1f07
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6006320432790393706
-    second: ClickBush_0
+      213: -1138614213441536250
+    second: Clown_Sprite_Whole_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ClickBush_0
+      name: Clown_Sprite_Whole_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 42
-        width: 1986
-        height: 2432
+        x: 5
+        y: 1
+        width: 37
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69cab54a36345aca0800000000000000
-      internalID: -6006320432790393706
+      spriteID: 60f3b9fc764d230f0800000000000000
+      internalID: -1138614213441536250
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ClickBush_0: -6006320432790393706
+      Clown_Sprite_Whole_0: -1138614213441536250
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

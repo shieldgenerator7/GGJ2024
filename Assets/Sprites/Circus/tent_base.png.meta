@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 95999e9ef0c611249b906ae8f2c1d444
+guid: d52abf74347638344b51f14865176d15
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6006320432790393706
-    second: ClickBush_0
+      213: 7000412724120959470
+    second: tent_base_0
+  - first:
+      213: 586704101507181940
+    second: tent_base_1
+  - first:
+      213: 4368772888965493091
+    second: tent_base_2
+  - first:
+      213: -2666482865187773309
+    second: tent_base_3
+  - first:
+      213: -17320905927471374
+    second: tent_base_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +58,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ClickBush_0
+      name: tent_base_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 42
-        width: 1986
-        height: 2432
+        x: 0
+        y: 3085
+        width: 18
+        height: 313
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +126,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69cab54a36345aca0800000000000000
-      internalID: -6006320432790393706
+      spriteID: ee9ba566846762160800000000000000
+      internalID: 7000412724120959470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_base_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 3369
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47da9969544642800800000000000000
+      internalID: 586704101507181940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_base_2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 5589
+        height: 5841
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3613527bbcff0ac30800000000000000
+      internalID: 4368772888965493091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_base_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1983
+        width: 11
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38421d436ffbefad0800000000000000
+      internalID: -2666482865187773309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tent_base_4
+      rect:
+        serializedVersion: 2
+        x: 5509
+        y: 0
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe41035ab672cff0800000000000000
+      internalID: -17320905927471374
       vertices: []
       indices: 
       edges: []
@@ -123,7 +219,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -131,7 +227,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ClickBush_0: -6006320432790393706
+      tent_base_0: 7000412724120959470
+      tent_base_1: 586704101507181940
+      tent_base_2: 4368772888965493091
+      tent_base_3: -2666482865187773309
+      tent_base_4: -17320905927471374
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

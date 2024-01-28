@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ClickCan 1_0: 4011403051461017755
+      ClickCan 1_1: -8698043447453515981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
