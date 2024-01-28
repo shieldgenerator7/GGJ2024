@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PostElephant_0: -5381729511066427757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

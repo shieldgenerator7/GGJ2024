@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ClickElephant_0: 7937273438268089576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

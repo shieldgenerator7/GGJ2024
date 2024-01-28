@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ClickCement 1_0: -1310588565503622186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
