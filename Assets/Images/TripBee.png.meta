@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TripBee_0: 1323395947465884092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

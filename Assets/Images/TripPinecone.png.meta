@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TripPinecone_0: 669319218795534442
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
