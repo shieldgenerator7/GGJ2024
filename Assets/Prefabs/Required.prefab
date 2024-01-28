@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eee3cd4de42ca1469335d88c252557a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 2.3
 --- !u!114 &2324218399642027793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf0fb00a41824be4dad501a822e84a4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitDuration: 2
+  waitDuration: 1
 --- !u!50 &4254903613628200791
 Rigidbody2D:
   serializedVersion: 4

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UnluckyCounter : MonoBehaviour
 {
@@ -26,16 +27,26 @@ public class UnluckyCounter : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(gameObject);
+        
+        OnCountChanged += (count) =>
+        {
+            txtCount.text = $"Insurance Claim: ${count * 100 + 1000}";
+        };
+        SceneManager.sceneLoaded += (a, b) =>
+        {
+            registerPlayerDelegates();
+        };
+        registerPlayerDelegates();
+    }
+
+    private void registerPlayerDelegates()
+    {
         FindAnyObjectByType<PlayerController>().OnMovingChanged += (moving) =>
         {
             if (!moving)
             {
                 Count++;
             }
-        };
-        OnCountChanged += (count) =>
-        {
-            txtCount.text = $"Insurance Claim: ${count * 100 + 1000}";
         };
     }
 }
