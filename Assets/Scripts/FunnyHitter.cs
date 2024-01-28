@@ -13,6 +13,7 @@ public class FunnyHitter : MonoBehaviour
     public bool rotateMe;
     public bool destroyOnContact = true;
     public Rigidbody2D myself;
+    public bool headShoot;
 
     AudioSource audioData;
     public AudioClip myClip;
