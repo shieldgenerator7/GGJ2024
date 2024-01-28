@@ -101,6 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MyFunny: {fileID: 6235434499011566359}
+  postClick: {fileID: 0}
 --- !u!61 &661082787125408107
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -310,6 +311,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   messName: 
   thePlayer: {fileID: 0}
+  consumed: 0
+  flingMe: 0
+  flingForce: 0
+  flingUp: 0
+  rotateMe: 0
+  myself: {fileID: 0}
 --- !u!58 &3931000686132382831
 CircleCollider2D:
   m_ObjectHideFlags: 0
