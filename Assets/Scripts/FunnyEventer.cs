@@ -6,6 +6,7 @@ public class FunnyEventer : MonoBehaviour
 {
     public GameObject MyFunny;
     public Sprite postClick;
+    public bool hideOnClick = false;
  
     void OnMouseDown()
     {
@@ -17,7 +18,13 @@ public class FunnyEventer : MonoBehaviour
             gameObject.GetComponent<SpriteRenderer>().sprite = postClick;
             
         }
+       GetComponent<Collider2D>().enabled = false;
         
+        if (hideOnClick)
+        {
+
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        }
         //change image to post clicked
         
     }

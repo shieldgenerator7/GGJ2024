@@ -135,6 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyFunny: {fileID: 3411431441016035710}
   postClick: {fileID: -6441213777929250748, guid: 5b60963b9a88fb34ea903a2c67f6b818, type: 3}
+  hideOnClick: 0
 --- !u!61 &4344881759513939392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -169,7 +170,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.6283722, y: 0.10473251}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -179,7 +180,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 19.6, y: 53.4}
+  m_Size: {x: 32.167477, y: 68.27151}
   m_EdgeRadius: 0
 --- !u!1 &3411431441016035710
 GameObject:

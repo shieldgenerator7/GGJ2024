@@ -240,7 +240,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.99431324, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -250,7 +250,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4.27, y: 1.01}
+  m_Size: {x: 2.364233, y: 1.01}
   m_EdgeRadius: 0
 --- !u!1 &7836884035479603500
 GameObject:
@@ -354,6 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyFunny: {fileID: 5594206641655009254}
   postClick: {fileID: 0}
+  hideOnClick: 0
 --- !u!61 &6797795424121306466
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -388,7 +389,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 1.0357418, y: 0.06904888}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -398,5 +399,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 50, y: 11}
+  m_Size: {x: 56.766857, y: 21.081232}
   m_EdgeRadius: 0
