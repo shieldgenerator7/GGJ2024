@@ -12,6 +12,8 @@ public class FunnyHitter : MonoBehaviour
     public float flingUp;
     public bool rotateMe;
     public Rigidbody2D myself;
+    public AudioSource sendSound = new AudioSource();
+    public AudioClip soundSelection;
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
@@ -20,15 +22,38 @@ public class FunnyHitter : MonoBehaviour
         {
             thePlayer = collision.gameObject;
             Debug.Log("HIT "+ messName);
+            //sendSound = thePlayer.GetComponent(AudioSource); 
+   
             //call player object to stop moving
+            sendSound = thePlayer.GetComponent<AudioSource>();
+            {
 
-            Destroy(this.gameObject);
+                switch (messName)
+                {
+                    case "Crash":
+                        soundSelection = Resources.Load<AudioClip>("Assets/Audio/QUACK.wav");
+                        Debug.Log(soundSelection);
+                        break;
+                    case "Pie":
+                        break;
+                    case "Splash":
+                        break;
+                    case "Poop":
+                        break;
+                    case "Zap":
+                        break;
+                    default:
+                        break;
+                }
+                //sendSound.PlayOneShot(soundSelection, 1.0f);
+            }
+            //   Destroy(this.gameObject);
         }
         else if (collision.gameObject.tag == "Ground")
         {
             Debug.Log("Grounded");
             if (consumed) { 
-            Destroy(this.gameObject);
+           // Destroy(this.gameObject);
         }
         }
 
