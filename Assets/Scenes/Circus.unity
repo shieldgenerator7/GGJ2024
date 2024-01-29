@@ -3393,6 +3393,14 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4687757609951773329, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 61e9249a0be3b374daafdc8c53105cc1, type: 3}
+    - target: {fileID: 4687757609951773329, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 61e9249a0be3b374daafdc8c53105cc1, type: 3}
     - target: {fileID: 7490922357937460267, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -3400,7 +3408,7 @@ PrefabInstance:
     - target: {fileID: 8732602071016580928, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
       propertyPath: foundSound
       value: 
-      objectReference: {fileID: 8300000, guid: a6c9fc3faedc3044bbe353649abb146e, type: 3}
+      objectReference: {fileID: 8300000, guid: 61e9249a0be3b374daafdc8c53105cc1, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3483,6 +3491,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 307736990339454019, guid: d7131d355147e2b4da059af13cc37412, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 610c087bbd2b8ef40a27bd1ccfeec774, type: 3}
+    - target: {fileID: 307736990339454019, guid: d7131d355147e2b4da059af13cc37412, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 610c087bbd2b8ef40a27bd1ccfeec774, type: 3}
     - target: {fileID: 4194934356857283398, guid: d7131d355147e2b4da059af13cc37412, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5026,6 +5042,14 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 4687757609951773329, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 6b37bb5c556e9fb4f8e84436d4d048be, type: 3}
+    - target: {fileID: 4687757609951773329, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6b37bb5c556e9fb4f8e84436d4d048be, type: 3}
     - target: {fileID: 7490922357937460267, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
       propertyPath: m_Size.x
       value: 6
@@ -5049,7 +5073,7 @@ PrefabInstance:
     - target: {fileID: 8732602071016580928, guid: 11e5e5d1b79fece4f82c138652d9753e, type: 3}
       propertyPath: foundSound
       value: 
-      objectReference: {fileID: 8300000, guid: cf00d992cb6e37247a800ba8ae0c1462, type: 3}
+      objectReference: {fileID: 8300000, guid: 6b37bb5c556e9fb4f8e84436d4d048be, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

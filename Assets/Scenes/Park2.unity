@@ -3113,6 +3113,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 307736990339454019, guid: d7131d355147e2b4da059af13cc37412, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: bc13c49f2cc4a1043965ef9c7601d17a, type: 3}
+    - target: {fileID: 307736990339454019, guid: d7131d355147e2b4da059af13cc37412, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bc13c49f2cc4a1043965ef9c7601d17a, type: 3}
     - target: {fileID: 4194934356857283398, guid: d7131d355147e2b4da059af13cc37412, type: 3}
       propertyPath: m_LocalPosition.x
       value: -194.4

@@ -248,7 +248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 148662988502988020}
   - component: {fileID: 6195445040586559873}
-  - component: {fileID: 2616459821317251869}
+  - component: {fileID: 8344160129487621052}
   m_Layer: 0
   m_Name: UnluckyCounter
   m_TagString: Untagged
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   count: 0
   txtCount: {fileID: 9180943385088922642}
---- !u!82 &2616459821317251869
+--- !u!82 &8344160129487621052
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -296,10 +296,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 11877edb7d5eefb4eaa86606d8e78ff4, type: 3}
-  m_Resource: {fileID: 8300000, guid: 11877edb7d5eefb4eaa86606d8e78ff4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fe4fa23fde029e047bbe831d2676a897, type: 3}
+  m_Resource: {fileID: 8300000, guid: fe4fa23fde029e047bbe831d2676a897, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.384
   m_Pitch: 1
   Loop: 0
   Mute: 0
