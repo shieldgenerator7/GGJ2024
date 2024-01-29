@@ -38,7 +38,10 @@ public class FunnyHitter : MonoBehaviour
                 AudioSource clipPlayer = new AudioSource();
                 clipPlayer = GetComponent<AudioSource>();
                 BoxCollider2D boxedIn = GetComponent<BoxCollider2D>();
+                CircleCollider2D circledIn = GetComponent<CircleCollider2D>();
+
                 boxedIn.enabled = false;
+                circledIn.enabled = false;a
                 // PlayMyTrack();
                 Destroy(this.gameObject,3);
         }
